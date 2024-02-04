@@ -59,6 +59,12 @@ p {
   font-weight: normal;
   line-height: 27px;
   text-decoration: none;
+  padding: 16px 44px;
+}
+.getstarted-btn:hover {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  transition: 0.25s;
 }
 .homepage-paragraph {
   color: var(--headings-color);
@@ -84,8 +90,14 @@ p {
   font-weight: normal;
   padding: 15px 30px;
 }
+.btn-branding-outline:hover {
+  border-radius: 4px;
+  background: var(--branding-color);
+  color: white;
+  transition: 0.25s;
+}
 .project-description {
-  padding: 60px 60px;
+  padding: 60px 40px;
 }
 
 @media (max-width: 900px) {
