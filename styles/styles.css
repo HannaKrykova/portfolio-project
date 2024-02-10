@@ -50,7 +50,7 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-.getstarted-btn {
+.btn-branding {
   border-radius: 4px;
   background: var(--branding-color);
   color: white;
@@ -99,7 +99,27 @@ p {
 .project-description {
   padding: 60px 40px;
 }
-
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 86px;
+  color: black;
+}
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+  text-align: start;
+}
+.about-section-content {
+  margin: 30px;
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -115,5 +135,12 @@ p {
   h4 {
     font-size: 42px;
     line-height: 1.5;
+  }
+  .about-section {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .about-section h2 {
+    text-align: center;
   }
 }
