@@ -38,6 +38,7 @@ h4 {
   line-height: 86px;
   color: black;
 }
+
 p {
   color: black;
   font-family: var(--default-font-family);
@@ -83,7 +84,7 @@ nav li.active a {
   font-weight: normal;
   line-height: 27px;
   text-decoration: none;
-  padding: 16px 44px;
+  padding: 18px 30px;
 }
 .btn-branding:hover {
   color: var(--branding-color);
@@ -159,7 +160,53 @@ nav li.active a {
   line-height: 21px;
   opacity: 70%;
 }
-
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer h4 {
+  font-size: 48px;
+  line-height: 64px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: black;
+}
+footer p {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  color: black;
+  opacity: 70%;
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
